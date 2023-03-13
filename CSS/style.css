@@ -1,0 +1,135 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navigation {
+  margin-top: 8px;
+  font-family: var(--font2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left {
+  font-size: 28px;
+  display: flex;
+}
+
+.nav-left ul {
+  display: flex;
+  align-items: center;
+  margin: 0px 90px;
+  font-size: 24px;
+  padding-bottom: 9px;
+}
+
+.nav-left ul li {
+  list-style: none;
+  margin: 0px 8px;
+  font-family: var(--font2);
+}
+
+.nav-left ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-left ul li a:hover {
+  color: var(--main-bg-color);
+  font-weight: bolder;
+}
+
+.content {
+  height: 100%;
+  /* background-color: rgb(237, 237, 243); */
+  display: flex;
+  padding: 9px;
+  margin-top: 32px;
+  position: relative;
+}
+
+.content::after {
+  content: "";
+  /* background: url("../img/11.svg"); */
+  position: absolute;
+  width: 100%;
+  height: inherit;
+  opacity: 0.15;
+}
+
+.content-left {
+  font-family: var(--font1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+  margin: 3px;
+  z-index: 1;
+}
+
+.content-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-right img {
+  height: 355px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.home-articles {
+  margin-top: 10px;
+  background-color: rgb(248, 239, 239, 0.5);
+  position: relative;
+}
+.home-articles h2{
+  padding-left: 10px;
+  padding-top: 15px;  
+}
+
+.year-box {
+  position: absolute;
+  width: 100px;
+  top: 70px;
+  height: 255px;
+  right: 30px;
+  font-size: 18px;
+}
+
+.home-article {
+  display: flex;
+  padding: 20px 50px;
+}
+.home-article img {
+  width: 300px;
+}
+
+.home-article-content h3{
+  width: 80%;
+}
+.home-article-content {
+  align-self: center;
+  padding: 0px 30px;
+}
+.home-article-content a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer {
+  height: 50px;
+  background-color: var(--main-bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
